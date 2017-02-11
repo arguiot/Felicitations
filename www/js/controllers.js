@@ -18,6 +18,10 @@ angular.module('starter.controllers', [])
       $(".desc").html(data.fullDesc);
       $(".like-ct").html(data.likes + " Likes");
     }
+  }).done(function () {
+    $(".help").click(function () {
+        alert("Welcome!\n To use this app, you'll need to understand the goal of this app. It's an app for students who wants to share their work.");
+      });
   });
   $.ajax({
     url: getImg,
@@ -27,7 +31,8 @@ angular.module('starter.controllers', [])
     cache: false
   })
     .done(function( text ) {
-      $("img").attr("src", "data:image/png;base64," + text);    
+      $("img").attr("src", "data:image/png;base64," + text);   
+      // $("img").attr("zoom-src", "data:image/png;base64," + text); 
     });
   $(".like, a.search-like").click(function () {
     $(this).unbind("click");
