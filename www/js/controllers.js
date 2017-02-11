@@ -40,6 +40,14 @@ angular.module('starter.controllers', [])
         localStorage.removeItem("last");
         // Code for localStorage/sessionStorage.
         var postId = $(this).find(".id").attr("id");
+        var likeUrl = "http://api.the-scientist.fr/likes.php?postID=" + postId;
+                $.ajax({
+                  url: likeUrl,
+                  beforeSend: function(request) {
+                      request.setRequestHeader("Access-Control-Allow-Origin", '*');
+                  },
+                  cache: false
+                });
         // Store
         localStorage.setItem("last", postId);
         // Retrieve
@@ -77,6 +85,14 @@ angular.module('starter.controllers', [])
                 localStorage.removeItem("last");
                 // Code for localStorage/sessionStorage.
                 var postId = $(this).find(".id").attr("id");
+                var likeUrl = "http://api.the-scientist.fr/likes.php?postID=" + postId;
+                $.ajax({
+                  url: likeUrl,
+                  beforeSend: function(request) {
+                      request.setRequestHeader("Access-Control-Allow-Origin", '*');
+                  },
+                  cache: false
+                });
                 // Store
                 localStorage.setItem("last", postId);
                 // Retrieve
