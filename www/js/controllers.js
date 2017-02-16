@@ -19,9 +19,6 @@ angular.module('starter.controllers', [])
       $(".like-ct").html(data.likes + " Likes");
     }
   }).done(function () {
-    $(".help").click(function () {
-        alert("Welcome!\n To use this app, you'll need to understand the goal of this app. It's an app for students who wants to share their work.");
-      });
   });
   $.ajax({
     url: getImg,
@@ -33,6 +30,13 @@ angular.module('starter.controllers', [])
     .done(function( text ) {
       $("img").attr("src", "data:image/png;base64," + text);   
       // $("img").attr("zoom-src", "data:image/png;base64," + text); 
+      $("img").each(function () {
+        $(this).panzoom({
+          minScale: 0,
+          panOnlyWhenZoomed: true,
+          contain: 'automatic'
+        });
+      });
     });
   $(".like, a.search-like").click(function () {
     $(this).unbind("click");
@@ -79,6 +83,13 @@ angular.module('starter.controllers', [])
       })
         .done(function( text ) {
           $(".search-output").html(text);   
+          $("img").each(function () {
+              $(this).panzoom({
+                minScale: 0,
+                panOnlyWhenZoomed: true,
+                contain: 'automatic'
+              });
+            });
           $(".like, a.search-like").click(function () {
             $(this).unbind("click");
             var current = $(this).find(".like-ct").text();

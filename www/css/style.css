@@ -4,4 +4,5 @@ input[type='file'] {
 }
 .iframe-loading {
 	background:url(../img/loader.svg) center center no-repeat
+	width: 100vw;
 }
