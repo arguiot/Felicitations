@@ -33,6 +33,7 @@ angular.module('starter.controllers', [])
       $("img").each(function () {
         $(this).panzoom({
           minScale: 0.8,
+          maxScale: 3,
           panOnlyWhenZoomed: true,
           contain: 'automatic'
         });
@@ -86,6 +87,7 @@ angular.module('starter.controllers', [])
           $("img").each(function () {
               $(this).panzoom({
                 minScale: 0.8,
+                maxScale: 3,
                 panOnlyWhenZoomed: true,
                 contain: 'automatic'
               });
