@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.social867118" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>felicitation</name>
+  <name>Félicitation</name>
   <description>
         An app for students.
     </description>
-  <author email="you@example.com" href="http://example.com/">
+  <author email="arguiot@gmail.com" href="https://www.the-scientist.fr">
       Arthur Guiot
     </author>
   <content src="index.html"/>

@@ -32,7 +32,7 @@ angular.module('starter.controllers', [])
       // $("img").attr("zoom-src", "data:image/png;base64," + text); 
       $("img").each(function () {
         $(this).panzoom({
-          minScale: 0.8,
+          minScale: 1,
           maxScale: 3,
           panOnlyWhenZoomed: true,
           contain: 'automatic'
@@ -86,7 +86,7 @@ angular.module('starter.controllers', [])
           $(".search-output").html(text);   
           $("img").each(function () {
               $(this).panzoom({
-                minScale: 0.8,
+                minScale: 1,
                 maxScale: 3,
                 panOnlyWhenZoomed: true,
                 contain: 'automatic'
