@@ -28,8 +28,8 @@ angular.module('starter.controllers', [])
     cache: false
   })
     .done(function( text ) {
-      $("img").attr("src", "data:image/png;base64," + text);   
-      // $("img").attr("zoom-src", "data:image/png;base64," + text); 
+      $("img").attr("src", "data:image/png;base64," + text);
+      // $("img").attr("zoom-src", "data:image/png;base64," + text);
       $("img").each(function () {
         $(this).panzoom({
           minScale: 1,
@@ -83,7 +83,7 @@ angular.module('starter.controllers', [])
         cache: false
       })
         .done(function( text ) {
-          $(".search-output").html(text);   
+          $(".search-output").html(text);
           $("img").each(function () {
               $(this).panzoom({
                 minScale: 1,
@@ -120,10 +120,10 @@ angular.module('starter.controllers', [])
                 // Sorry! No Web Storage support..
                 console.log("No web storage");
             }
-          }); 
+          });
         });
     });
-    
+
 })
 
 .controller('AddPostCtrl', function($scope) {
