@@ -72,7 +72,7 @@ angular.module('starter.controllers', [])
 
 .controller('SearchCtrl', function($scope) {
     $(".search-btn").click(function () {
-      $(".search-output").html("<center><ion-spinner></ion-spinner>Loading</center>");
+      $(".search-output").html("<center>Chargement...</center>");
       var value = $(".query").val();
       var searchUrl = "http://api.the-scientist.fr/search.php?s=" + value;
       $.ajax({
