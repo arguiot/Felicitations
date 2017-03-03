@@ -69,7 +69,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services',])
         }
       }
     })
-
+    .state('tab.categorie', {
+    url: '/categorie',
+    views: {
+      'tab-categorie': {
+        templateUrl: 'templates/tab-categorie.html',
+        controller: 'CategorieCtrl'
+      }
+    }
+  })
   .state('tab.addpost', {
     url: '/addpost',
     views: {
@@ -79,7 +87,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services',])
       }
     }
   });
-
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/latest');
 

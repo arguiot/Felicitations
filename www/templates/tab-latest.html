@@ -10,6 +10,10 @@
       </button>
     </ion-nav-buttons>
   <ion-content>
+  <ion-refresher
+    pulling-text="Rafraîchir..."
+    on-refresh="doRefresh()">
+  </ion-refresher>
     <div class="list card" id="1">
 
       <div class="item">
@@ -28,7 +32,7 @@
       </a>
 
     </div>
-
+    <div class="tip padding"><center><i class="ion-ios-lightbulb-outline"></i> Tip: vous pouvez rafraîchir la page en effectuant un glissement vers le bas!</center></div>
     </div>
   </ion-content>
 </ion-view>
