@@ -6,9 +6,7 @@ _______
 We are two students of the Lycée Condorcet of Sydney in Australia, who have a project for the TPE in first ES, which was to create an application for Smartphone. Congratulations is a collaborative tool for sharing resources (control, DM, DST ..) which helps to help students in need.
 
 ## Download
-<center><a href="http://apple.co/2mZK3dM"><object type="image/svg+xml" data="https://raw.githubusercontent.com/arguiot/Felicitations/master/resources/appstore.svg">
-  Your browser does not support SVG
-</object></a></center>
+<center><a href="http://apple.co/2mZK3dM"><img src="http://imgh.us/appstore_1.svg"></a></center>
 
 ## 1. Installation
 ### macOS & Linux
