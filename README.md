@@ -1,9 +1,12 @@
 # Félicitations
-<center><img src="./ressources/icon.png"></center>
-When you have a problem with your homework, understanding a poorly explained or misunderstood yard, you can stay long hours without even writing a word on your sheet. Thanks to "Congratulations!" This problem will never happen again! Find and download courses, homework corrections, DS OR DSTs posted by other students to help you with your research.
----------------------------
+<center><img src="https://raw.githubusercontent.com/arguiot/Felicitations/master/resources/icon.png" width="300px" height="300px"></center>
+# About
+When you have a problem with your homework, understanding a poorly explained or misunderstood yard, you can stay long hours without even writing a word on your sheet. Thanks to "Congratulations!" This problem will never happen again! Find and download courses, homework corrections, DS OR DSTs posted by other students to help you with your research
+_______
 We are two students of the Lycée Condorcet of Sydney in Australia, who have a project for the TPE in first ES, which was to create an application for Smartphone. Congratulations is a collaborative tool for sharing resources (control, DM, DST ..) which helps to help students in need.
 
+## Download
+<center><a href="http://apple.co/2mZK3dM"><img src="https://raw.githubusercontent.com/arguiot/Felicitations/master/resources/appstore.svg" width="135px" height="40px"></a></center>
 
 ## 1. Installation
 ### macOS & Linux
